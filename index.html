@@ -9,7 +9,7 @@
   <body>
     <h1>Currency Converter</h1>
     <p>Currency converter that fetches real-time exchange rates from a public API and converts a given amount from one currency to another.</p>
-    <h2 style="text-align: center; margin-top:255%" id="result"></h2>;
+    <h2 style="text-align: center; margin-top:25%" id="result"></h2>;
     <div class="container">
       <form>
         <input type="number" id="amount" placeholder="Amount">
@@ -18,12 +18,14 @@
           <option value="EUR">EUR</option>
           <option value="USD" selected>USD</option>
           <option value="TRY">TRY</option>
+          <option value="RUB">RUB</option>
         </select>
         <label for="targetCurrency">To</label>
         <select name="to" id="targetCurrency">
           <option value="EUR">EUR</option>
           <option value="USD">USD</option>
           <option value="TRY" selected>TRY</option>
+          <option value="RUB">RUB</option>
         </select>
       </form>
     </div>
